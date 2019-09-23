@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\BirdScript.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EggScript.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\SnailScript.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\SpiderScript.cs" />
     <Compile Include="Assets\Scripts\HelperScripts\MyTags.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\FireBullet.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
