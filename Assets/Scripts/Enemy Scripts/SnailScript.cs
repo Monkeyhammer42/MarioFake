@@ -151,8 +151,36 @@ public class SnailScript : MonoBehaviour
         yield return new WaitForSeconds(timer);
         gameObject.SetActive(false);
             }
-    
 
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.tag == MyTags.BULLET_TAG)
+        {
+
+            if (tag == MyTags.BEETLE_TAG)
+            {
+                anim.Play("Stunned");
+                canMove = false;
+                myBody.velocity = new Vector2(0, 0);
+                StartCoroutine(Dead(0.4f));
+            }
+            if (tag == MyTags.SNAIL_TAG)
+            {
+                if (!stunned)
+                {
+
+                    anim.Play("SnailStunned");
+                    stunned = true;
+                    canMove = false;
+                    myBody.velocity = new Vector2(0, 0);
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                }
+            }
+        }
+    }
 
 }//class
 
