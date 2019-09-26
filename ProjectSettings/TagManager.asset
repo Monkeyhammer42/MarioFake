@@ -8,6 +8,8 @@ TagManager:
   - Beetle
   - Bullet
   - Snail
+  - Water
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -44,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1183937315
     locked: 0

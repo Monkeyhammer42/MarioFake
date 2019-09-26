@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded;
     private bool jumped;
-    private float jumpPower = 12f;
+    private float jumpPower = 16f;
      void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
