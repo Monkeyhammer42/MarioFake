@@ -8,7 +8,7 @@ public class ScoreScript : MonoBehaviour
 {
     private Text coinTextScore;
     private AudioSource audioManager;
-    private int scoreCount;
+    public int scoreCount;
     void Awake()
     {
         audioManager = GetComponent<AudioSource>();
@@ -24,12 +24,15 @@ public class ScoreScript : MonoBehaviour
         if (target.tag == MyTags.COIN_TAG)
         {
             target.gameObject.SetActive(false);
-            scoreCount++;
-            coinTextScore.text = "x" + scoreCount.ToString();
-            audioManager.Play();
-
+            IncrementScore();
         }
     }
 
+    public void IncrementScore()
+    {
+        scoreCount++;
+        coinTextScore.text = "x" + scoreCount.ToString();
+        audioManager.Play();
+    }
 
 }

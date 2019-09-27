@@ -10,6 +10,7 @@ TagManager:
   - Snail
   - Water
   - Coin
+  - FallDeath
   layers:
   - Default
   - TransparentFX

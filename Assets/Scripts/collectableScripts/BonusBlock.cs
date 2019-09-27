@@ -15,6 +15,7 @@ public class BonusBlock : MonoBehaviour
 
     private bool startAnim;
     private bool canAnimate=true;
+    public ScoreScript scoreScript;
 
 
     private void Awake()
@@ -47,6 +48,7 @@ public class BonusBlock : MonoBehaviour
                     anim.Play("BonusBlockIdle");
                     startAnim = true;
                     canAnimate = false;
+                    scoreScript.IncrementScore();
                 }
             }
         }

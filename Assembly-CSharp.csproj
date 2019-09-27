@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FallDeath.cs" />
     <Compile Include="Assets\Scripts\BGScripts\ScaleBackground.cs" />
+    <Compile Include="Assets\Scripts\BossScript\BossScript.cs" />
     <Compile Include="Assets\Scripts\CameraScript\CameraScript.cs" />
     <Compile Include="Assets\Scripts\collectableScripts\BonusBlock.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\BirdScript.cs" />
