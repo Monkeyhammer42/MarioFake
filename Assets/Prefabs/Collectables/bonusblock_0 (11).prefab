@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4489309917706528858}
   - component: {fileID: 4489309917706528857}
   - component: {fileID: 4489309917706528856}
+  - component: {fileID: 4898985340190353846}
   m_Layer: 0
   m_Name: bonusblock_0 (11)
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4489309917706528862}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: 0.12, z: 9.390625}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.3}
   m_Children:
@@ -128,6 +129,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4898985340190353846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4489309917706528862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 4489309917471857980}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1001 &4343063478221899492
 PrefabInstance:
   m_ObjectHideFlags: 0

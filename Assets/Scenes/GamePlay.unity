@@ -2509,6 +2509,7 @@ GameObject:
   - component: {fileID: 99323223}
   - component: {fileID: 99323222}
   - component: {fileID: 99323221}
+  - component: {fileID: 99323224}
   m_Layer: 0
   m_Name: bonusblock_0 (10)
   m_TagString: Untagged
@@ -2625,6 +2626,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &99323224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99323219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1849380353}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &99525811
 GameObject:
   m_ObjectHideFlags: 0
@@ -2718,6 +2735,7 @@ GameObject:
   - component: {fileID: 100342708}
   - component: {fileID: 100342707}
   - component: {fileID: 100342706}
+  - component: {fileID: 100342709}
   m_Layer: 0
   m_Name: bonusblock_0 (3)
   m_TagString: Untagged
@@ -2834,6 +2852,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &100342709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100342704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1386259958}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &101408271
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,6 +4491,7 @@ GameObject:
   - component: {fileID: 159526164}
   - component: {fileID: 159526163}
   - component: {fileID: 159526162}
+  - component: {fileID: 159526165}
   m_Layer: 0
   m_Name: bonusblock_0 (6)
   m_TagString: Untagged
@@ -4573,6 +4608,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &159526165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159526160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 381476380}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &172817149
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,6 +6667,7 @@ GameObject:
   - component: {fileID: 255985407}
   - component: {fileID: 255985406}
   - component: {fileID: 255985405}
+  - component: {fileID: 255985408}
   m_Layer: 0
   m_Name: bonusblock_0 (2)
   m_TagString: Untagged
@@ -6732,6 +6784,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &255985408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255985403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1076713736}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &259647682
 GameObject:
   m_ObjectHideFlags: 0
@@ -8493,6 +8561,7 @@ GameObject:
   - component: {fileID: 344833276}
   - component: {fileID: 344833275}
   - component: {fileID: 344833274}
+  - component: {fileID: 344833277}
   m_Layer: 0
   m_Name: bonusblock_0 (7)
   m_TagString: Untagged
@@ -8609,6 +8678,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &344833277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344833272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1521952852}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &357051158
 GameObject:
   m_ObjectHideFlags: 0
@@ -17175,6 +17260,7 @@ GameObject:
   - component: {fileID: 751221761}
   - component: {fileID: 751221760}
   - component: {fileID: 751221759}
+  - component: {fileID: 751221762}
   m_Layer: 0
   m_Name: bonusblock_0 (1)
   m_TagString: Untagged
@@ -17291,6 +17377,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &751221762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751221757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 278452229}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &752740002
 GameObject:
   m_ObjectHideFlags: 0
@@ -18203,6 +18305,7 @@ GameObject:
   - component: {fileID: 778896527}
   - component: {fileID: 778896526}
   - component: {fileID: 778896525}
+  - component: {fileID: 778896528}
   m_Layer: 0
   m_Name: bonusblock_0 (9)
   m_TagString: Untagged
@@ -18319,6 +18422,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &778896528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778896523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1390542729}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &781227323
 GameObject:
   m_ObjectHideFlags: 0
@@ -19491,6 +19610,7 @@ GameObject:
   - component: {fileID: 830416007}
   - component: {fileID: 830416006}
   - component: {fileID: 830416005}
+  - component: {fileID: 830416008}
   m_Layer: 0
   m_Name: bonusblock_0 (8)
   m_TagString: Untagged
@@ -19607,6 +19727,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &830416008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830416003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 639869129}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &837499613
 GameObject:
   m_ObjectHideFlags: 0
@@ -21742,6 +21878,7 @@ GameObject:
   - component: {fileID: 927985999}
   - component: {fileID: 927985998}
   - component: {fileID: 927985997}
+  - component: {fileID: 927986000}
   m_Layer: 0
   m_Name: bonusblock_0 (5)
   m_TagString: Untagged
@@ -21858,6 +21995,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &927986000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927985995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1311962444}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &928574975
 GameObject:
   m_ObjectHideFlags: 0
@@ -26010,6 +26163,7 @@ GameObject:
   - component: {fileID: 1099295827}
   - component: {fileID: 1099295826}
   - component: {fileID: 1099295825}
+  - component: {fileID: 1099295828}
   m_Layer: 8
   m_Name: HiddenBlock
   m_TagString: Untagged
@@ -26126,6 +26280,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1099295828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099295823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 1658429376}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1105695128
 GameObject:
   m_ObjectHideFlags: 0
@@ -38488,6 +38658,7 @@ GameObject:
   - component: {fileID: 1685258428}
   - component: {fileID: 1685258427}
   - component: {fileID: 1685258426}
+  - component: {fileID: 1685258429}
   m_Layer: 0
   m_Name: bonusblock_0 (4)
   m_TagString: Untagged
@@ -38604,6 +38775,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1685258429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685258424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5434358b14aa0254e9a19a3be65b291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottom_Collision: {fileID: 56969291}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1686095473
 GameObject:
   m_ObjectHideFlags: 0
