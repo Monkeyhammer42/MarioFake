@@ -35,7 +35,7 @@ public class CameraScript : MonoBehaviour
     {
         if (followsPlayer)
         {
-            Vector3 aheadTargetPos = target.position = Vector3.forward * offsetZ;
+            Vector3 aheadTargetPos = target.position + Vector3.forward * offsetZ;
             if (aheadTargetPos.x >= transform.position.x)
             {
                 Vector3 newCameraPosition = Vector3.SmoothDamp(transform.position, aheadTargetPos, ref currentVelocity, cameraSpeed);

@@ -86,7 +86,7 @@ public class SnailScript : MonoBehaviour
             if (leftHit.collider.gameObject.tag == MyTags.PLAYER_TAG) {
                 if (!stunned)
                 {
-
+                    leftHit.collider.gameObject.GetComponent<PlayerDamage>().DealDamage();
                 }
                 else {
                     if (tag != MyTags.BEETLE_TAG)
@@ -103,7 +103,7 @@ public class SnailScript : MonoBehaviour
             {
                 if (!stunned)
                 {
-
+                    rightHit.collider.gameObject.GetComponent<PlayerDamage>().DealDamage();
                 }
                 else
                 {
