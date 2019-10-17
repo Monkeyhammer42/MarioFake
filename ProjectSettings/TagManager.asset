@@ -11,6 +11,7 @@ TagManager:
   - Water
   - Coin
   - FallDeath
+  - Boss
   layers:
   - Default
   - TransparentFX
